@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+$font-stack: 'Montserrat', sans-serif;
+
+$blue: #3f6072;
+$gray: #7b99a9;
+$green: #6accba;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $green;
+  color: $blue;
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.action-button {
+  border: none;
+  border-radius: 6px;
+  background-color: $green;
+  color: #fff;
+  cursor: pointer;
+  font-family: $font-stack;
+  font-weight: bold;
+  height: 42px;
+  width: 100%;
+}
